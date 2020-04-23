@@ -1,0 +1,22 @@
+{
+  "tabbarDes": [
+    {
+      "txt": "首页",
+      "page": "",
+      "normalImg": "",
+      "activeImg":""
+    },
+    {
+      "txt": "通讯录",
+      "page": "contact",
+      "normalImg": "",
+      "activeImg": ""
+    },
+    {
+      "txt": "设置",
+      "page": "setup",
+      "normalImg": "",
+      "activeImg": ""
+    }
+  ]
+}

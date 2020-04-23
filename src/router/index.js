@@ -1,21 +1,22 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Home from '@/views/home'
-import HelloWorld from '@/components/HelloWorld'
+
+import Application from '@/views/tab/application'
+import Contact from '@/views/tab/contact'
+import SetUp from '@/views/tab/setUp'
+
+// import Home from '@/views/home'
+// import HelloWorld from '@/components/HelloWorld'
 
 Vue.use(Router)
 
 export default new Router({
   routes: [
-    {
-      path: '/',
-      name: 'Home',
-      component: Home
-    },
-    {
-      path: '/HelloWorld',
-      name: 'HelloWorld',
-      component: HelloWorld
-    }
+    { path: '/', name: 'Application', component: Application },
+    { path: '/contact', name: 'Contact', component: Contact },
+    { path: '/setUp', name: 'SetUp', component: SetUp }
+    // { path: '/personal', name: 'HelloWorld', component: HelloWorld },
+    // { path: '/HelloWorld', name: 'HelloWorld', component: HelloWorld },
+    // { path: '/Home', name: 'Home', component: Home }
   ]
 })
