@@ -33,13 +33,13 @@ export default{
       tabbarDes: [
         {
           'txt': '主页',
-          'page': 'application',
+          'page': '',
           'normalImg': require('./img/home.png'),
           'activeImg': require('./img/home1.png')
         },
         {
           'txt': '通讯录',
-          'page': '',
+          'page': 'contact',
           'normalImg': require('./img/contact.png'),
           'activeImg': require('./img/contact1.png')
         },

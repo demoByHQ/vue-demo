@@ -460,6 +460,33 @@
                         "isCoverNavBar":"",
                         "defaultDownload":"",
                         "showConer":"N"
+                    },
+                    {
+                        "estimatedStartingTime":"",
+                        "estimatedEndTime":"",
+                        "maintenanceStatus":"",
+                        "maintenanceDescribe":"",
+                        "menuVersion":"111",
+                        "menuVersionDesc":"1",
+                        "menuResource":"https://handhrhap.hand-china.com/hh/#/organization",
+                        "fileSize":"0KB",
+                        "menuIcon":"http://wechat.hand-china.com/upload/20171017/1508228437290.png",
+                        "menuMediumIcon":"",
+                        "menuBigIcon":"",
+                        "menuId":"c7e6d1a2-5c29-4b8c-b9a4-24b207118fde",
+                        "isAttached":"Y",
+                        "isShow":"Y",
+                        "menuName":"组织架构",
+                        "menuSeq":0,
+                        "menuType":"ONLINE",
+                        "menuLocalPath":"",
+                        "menuDestPath":"",
+                        "isSilenceUpdate":"N",
+                        "isForceUpdate":"N",
+                        "creationDate":"2017-10-17 08:20:48",
+                        "isCoverNavBar":"",
+                        "defaultDownload":"",
+                        "showConer":"N"
                     }
                 ]
             }

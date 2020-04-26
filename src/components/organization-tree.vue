@@ -16,7 +16,7 @@
             class="l_folder"
             @click="toParent(item)">{{ item.name }}</span>
         </div>
-        <ew-tree
+        <organization-tree
           v-show="item.test"
           v-if="item.children"
           :test="item.children"
@@ -29,7 +29,7 @@
 <script>
 import Vue from 'vue'
 export default {
-  name: 'EwTree',
+  name: 'OrganizationTree',
   props: {
     test: {
       type: Array,
