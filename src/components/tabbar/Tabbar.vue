@@ -1,7 +1,7 @@
 <template>
   <div class="tabberWarp" >
     <div class="warp">
-      <Item
+      <tabbar-item
         v-for="(item,index) in tabbarDes"
         :txt="item.txt"
         :page="item.page"
@@ -14,18 +14,18 @@
         <img
           slot="activeImg"
           :src="item.activeImg">
-      </Item>
+      </tabbar-item>
     </div>
   </div>
 </template>
 
 <script type="text/javascript">
 // import data from './data/data'
-import Item from './Item.vue'
+import TabbarItem from './tabbar-item.vue'
 
 export default{
   components: {
-    Item
+    TabbarItem
   },
   data: function () {
     return {
@@ -33,13 +33,13 @@ export default{
       tabbarDes: [
         {
           'txt': '主页',
-          'page': '',
+          'page': 'application',
           'normalImg': require('./img/home.png'),
           'activeImg': require('./img/home1.png')
         },
         {
           'txt': '通讯录',
-          'page': 'contact',
+          'page': '',
           'normalImg': require('./img/contact.png'),
           'activeImg': require('./img/contact1.png')
         },
