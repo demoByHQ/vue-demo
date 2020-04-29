@@ -14,14 +14,15 @@ import Payroll from '@/views/payroll'
 Vue.use(Router)
 
 export default new Router({
-  // mode: 'history',
+  mode: 'history',
   routes: [
     { path: '/', name: 'Application', component: Application },
     { path: '/contact', name: 'Contact', component: Contact },
     { path: '/setUp', name: 'SetUp', component: SetUp },
     { path: '/addressBook', name: 'AddressBook', component: AddressBook },
     { path: '/organization', name: 'Organization', component: Organization },
-    { path: '/payroll', name: 'Payroll', component: Payroll }
+    { path: '/payroll', name: 'Payroll', component: Payroll },
+    { path: '*', redirect: '/' }
     // { path: '/personal', name: 'HelloWorld', component: HelloWorld },
     // { path: '/HelloWorld', name: 'HelloWorld', component: HelloWorld },
     // { path: '/Home', name: 'Home', component: Home }
