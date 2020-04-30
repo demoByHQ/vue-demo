@@ -229,7 +229,7 @@ export default {
       width: 90px;
       height: 30px;
       appearance: none;
-      background: url("../../assets/images/pay-roll/chooseMonth@3.png") no-repeat right center;
+      background: url("../../assets/images/payroll/chooseMonth@3.png") no-repeat right center;
       background-Size: 20px 10px;
       font-size: 16px;
       color: white;

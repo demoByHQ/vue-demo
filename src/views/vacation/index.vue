@@ -21,6 +21,7 @@
         </div>
       </div>
     </div>
+
     <div class="vacation-background"/>
 
     <div class="vacation-head">
@@ -52,16 +53,6 @@
     </div>
     <div class="vacation-content text-left">
       <h3>休假记录</h3>
-      <!--无接口  暂时用死数据代替-->
-      <!--<div class="row vacationWrap" @click="vacationDetail" v-for ="item in vacationRecord">-->
-      <!--<img class="image-25" src="../../assets/images/vacation/illness.png" alt="图标">-->
-      <!--<div class="line"></div>-->
-      <!--<div class="vacationType">-->
-      <!--<p class="row"><span class="col-80">{{item.hrVacationType}}</span><span class="col-20 text-right">{{item.hrApplyStatus}}</span></p>-->
-      <!--<p class="row"><span class="col-90">{{item.hrStartTime}}至{{item.hrEndTime}}</span><span-->
-      <!--class="col-10 text-right">{{item.hrApplyDuration}}</span></p>-->
-      <!--</div>-->
-      <!--</div>-->
       <div
         class="row vacationWrap"
         @click="vacationDetail">
@@ -72,8 +63,8 @@
         <div class="line"/>
         <div class="vacationType">
           <p class="row"><span class="col-80">带薪年假</span><span class="col-20 text-right">通过</span></p>
-          <p class="row"><span class="col-90">2017-11-26至2017-12-13</span><span
-            class="col-10 text-right">18天</span></p>
+          <p class="row"><span class="col-80">2017-11-26至2017-12-13</span><span
+            class="col-20 text-right">18天</span></p>
         </div>
       </div>
       <div
@@ -86,8 +77,7 @@
         <div class="line"/>
         <div class="vacationType">
           <p class="row"><span class="col-80">带薪病假</span><span class="col-20 text-right">通过</span></p>
-          <p class="row"><span class="col-90">2017-10-21至2017-10-23</span><span
-            class="col-10 text-right">3天</span></p>
+          <p class="row"><span class="col-80">2017-10-21至2017-10-23</span><span class="col-20 text-right">3天</span></p>
         </div>
       </div>
       <div
@@ -100,8 +90,7 @@
         <div class="line"/>
         <div class="vacationType">
           <p class="row"><span class="col-80">福利年假</span><span class="col-20 text-right">通过</span></p>
-          <p class="row"><span class="col-90">2017-12-24至2017-12-25</span><span
-            class="col-10 text-right">2天</span></p>
+          <p class="row"><span class="col-80">2017-12-24至2017-12-25</span><span class="col-20 text-right">2天</span></p>
         </div>
       </div>
       <div
@@ -114,23 +103,18 @@
         <div class="line"/>
         <div class="vacationType">
           <p class="row"><span class="col-80">带薪年假</span><span class="col-20 text-right">通过</span></p>
-          <p class="row"><span class="col-90">2016-11-20至2016-11-22</span><span
-            class="col-10 text-right">3天</span></p>
+          <p class="row"><span class="col-90">2016-11-20至2016-11-22</span><span class="col-10 text-right">3天</span></p>
         </div>
       </div>
     </div>
-    <base-add @click.native="addVacation()"/>
   </div>
 </template>
 
 <script>
 
-import baseAdd from 'components/base-add.vue'
-
 export default {
   name: 'Vacation',
   components: {
-    baseAdd
   },
   data () {
     return {
@@ -159,7 +143,7 @@ export default {
 }
 </script>
 
-<style lang="scss" rel="stylesheet/scss" type="text/scss">
+<style lang="less" rel="stylesheet/less" type="text/less">
   .vacation {
     .personal-helptxt{
       border-radius: 50%;
