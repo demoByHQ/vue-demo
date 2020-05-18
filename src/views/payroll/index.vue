@@ -107,10 +107,15 @@ export default {
         {text: '最近一年', value: ''},
         {text: '年初至今', value: '0'}
       ],
+      ceshi: {
+        a: '1'
+      },
       selected: '0'
     }
   },
   mounted () {
+    // eslint-disable-next-line no-console
+    console.log(this.ceshi)
     this.choosePayRoll(0)
   },
 

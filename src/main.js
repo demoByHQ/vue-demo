@@ -7,10 +7,10 @@ import Router from 'vue-router'
 
 Vue.config.productionTip = false
 
-// // 如果是上线前测试，引入 vconsole 调试工具
+// 如果是上线前测试，引入 vconsole 调试工具
 // if (process.env.NODE_ENV === 'development') {
-//   const VConsole = require('vconsole')
-//   new VConsole() // eslint-disable-line
+const VConsole = require('vconsole')
+new VConsole() // eslint-disable-line
 // }
 
 Vue.use(Router)
