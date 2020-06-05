@@ -8,6 +8,7 @@ import AddressBook from '@/components/list-view'
 import Organization from '@/views/organization'
 import Payroll from '@/views/payroll'
 import Vacation from '@/views/vacation'
+import Recorder from '@/views/recorder'
 
 // import Home from '@/views/home'
 // import HelloWorld from '@/components/HelloWorld'
@@ -24,6 +25,7 @@ export default new Router({
     { path: '/organization', name: 'Organization', component: Organization },
     { path: '/payroll', name: 'Payroll', component: Payroll },
     { path: '/vacation', name: 'Vacation', component: Vacation },
+    { path: '/recorder', name: 'Recorder', component: Recorder },
     { path: '*', redirect: '/' }
     // { path: '/personal', name: 'HelloWorld', component: HelloWorld },
     // { path: '/HelloWorld', name: 'HelloWorld', component: HelloWorld },
