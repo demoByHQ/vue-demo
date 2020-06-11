@@ -113,13 +113,13 @@ export default {
     // console.log("process.env:", JSON.stringify(process.env.baseUrl))
     this.quickMenuList = data.menuCateories
     this.commonsApplicationList = data.menuCateories.commonsApplication[0].menus
-    if (this.commonsApplicationList) {
-      this.commonsApplicationList.push({
-        // 'menuIcon': require('../assets/images/home/addApp@3.png'),
-        'menuResource': 'homeManage',
-        'menuName': '添加'
-      })
-    }
+    // if (this.commonsApplicationList) {
+    //   this.commonsApplicationList.push({
+    //     'menuIcon': require('../../assets/images/addApp@3.png'),
+    //     'menuResource': 'homeManage',
+    //     'menuName': '添加'
+    //   })
+    // }
   },
   methods: {
     onSwiperItemIndexChange (index) {
