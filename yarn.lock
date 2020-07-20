@@ -6128,9 +6128,9 @@ lodash.uniq@^4.5.0:
   integrity sha1-0CJTc662Uq3BvILklFM5qEJ1R3M=
 
 lodash@^4.17.11, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.3, lodash@^4.17.4, lodash@^4.2.0, lodash@^4.3.0:
-  version "4.17.15"
-  resolved "https://registry.npm.taobao.org/lodash/download/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
-  integrity sha1-tEf2ZwoEVbv+7dETku/zMOoJdUg=
+  version "4.17.19"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.19.tgz#e48ddedbe30b3321783c5b4301fbd353bc1e4a4b"
+  integrity sha512-JNvd8XER9GQX0v2qJgsaN/mzFCNA5BRe/j8JN9d+tWyGLSodKQHKFicdwNYzWwI3wjRnaKPsGj1XkBjx/F96DQ==
 
 log-symbols@^2.1.0:
   version "2.2.0"
@@ -8306,10 +8306,10 @@ rechoir@^0.6.2:
   dependencies:
     resolve "^1.1.6"
 
-recorder-core@1.0.7:
-  version "1.1.20051700"
-  resolved "https://registry.yarnpkg.com/recorder-core/-/recorder-core-1.1.20051700.tgz#c998a81dcaaa93826db6a4c6bc25e6c8e28f63d4"
-  integrity sha512-qDo77Pv1lIMdKzma7M+s6NmammzK46yOzVYtTr/l6ypj+hJZfkaIaBhG5awwhk72kR8cvN71F1NwKHetRlZG1Q==
+recorder-core@^1.1.20051700:
+  version "1.1.20062600"
+  resolved "https://registry.yarnpkg.com/recorder-core/-/recorder-core-1.1.20062600.tgz#dba443f01e6e1ddfed67e304769d573c8e709a9b"
+  integrity sha512-bSFCwQjVggs+/AZduVxiV5a7sjgbCCZ3I1iFJtu18vFIr6MS2kRpBJg5vc6Cexqsks4HCLePsCB6+JPLkKBaYQ==
 
 redent@^1.0.0:
   version "1.0.0"
