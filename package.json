@@ -14,7 +14,7 @@
     "build": "node build/build.js"
   },
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "better-scroll": "1.10.2",
     "echarts": "^4.7.0",
     "recorder-core": "^1.1.20051700",
