@@ -8306,10 +8306,10 @@ rechoir@^0.6.2:
   dependencies:
     resolve "^1.1.6"
 
-recorder-core@1.0.7:
-  version "1.1.20051700"
-  resolved "https://registry.yarnpkg.com/recorder-core/-/recorder-core-1.1.20051700.tgz#c998a81dcaaa93826db6a4c6bc25e6c8e28f63d4"
-  integrity sha512-qDo77Pv1lIMdKzma7M+s6NmammzK46yOzVYtTr/l6ypj+hJZfkaIaBhG5awwhk72kR8cvN71F1NwKHetRlZG1Q==
+recorder-core@^1.1.20051700:
+  version "1.1.21080800"
+  resolved "https://registry.yarnpkg.com/recorder-core/-/recorder-core-1.1.21080800.tgz#ac0d5c256f0cb60d9e691dca4061d04ae39adb33"
+  integrity sha512-vVqjojsaJp9iUyLICXSdVLCpT35VMUMdi72RvEuOUYCHAyRk7vADJLkTj6ZUswR+vPpd+axBlapTc+VaZtT0vQ==
 
 redent@^1.0.0:
   version "1.0.0"
@@ -9571,9 +9571,9 @@ tmp@^0.0.33:
     os-tmpdir "~1.0.2"
 
 tmpl@1.0.x:
-  version "1.0.4"
-  resolved "https://registry.npm.taobao.org/tmpl/download/tmpl-1.0.4.tgz#23640dd7b42d00433911140820e5cf440e521dd1"
-  integrity sha1-I2QN17QtAEM5ERQIIOXPRA5SHdE=
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/tmpl/-/tmpl-1.0.5.tgz#8683e0b902bb9c20c4f726e3c0b69f36518c07cc"
+  integrity sha512-3f0uOEAQwIqGuWW2MVzYg8fV/QNnc/IpuJNG837rLuczAaLVHslWHZQj4IGiEl5Hs3kkbhwL9Ab7Hrsmuj+Smw==
 
 to-arraybuffer@^1.0.0:
   version "1.0.1"
