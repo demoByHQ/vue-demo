@@ -2806,9 +2806,9 @@ decamelize@^1.0.0, decamelize@^1.1.1, decamelize@^1.1.2:
   integrity sha1-9lNNFRSCabIDUue+4m9QH5oZEpA=
 
 decode-uri-component@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.npm.taobao.org/decode-uri-component/download/decode-uri-component-0.2.0.tgz#eb3913333458775cb84cd1a1fae062106bb87545"
-  integrity sha1-6zkTMzRYd1y4TNGh+uBiEGu4dUU=
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/decode-uri-component/-/decode-uri-component-0.2.2.tgz#e69dbe25d37941171dd540e024c444cd5188e1e9"
+  integrity sha512-FqUYQ+8o158GyGTrMFJms9qh3CqTKvAqgqsTnkLI8sKu0028orqBhxNMFkFen0zGyg6epACD32pjVk58ngIErQ==
 
 deep-eql@0.1.3:
   version "0.1.3"
@@ -8306,10 +8306,10 @@ rechoir@^0.6.2:
   dependencies:
     resolve "^1.1.6"
 
-recorder-core@1.0.7:
-  version "1.1.20051700"
-  resolved "https://registry.yarnpkg.com/recorder-core/-/recorder-core-1.1.20051700.tgz#c998a81dcaaa93826db6a4c6bc25e6c8e28f63d4"
-  integrity sha512-qDo77Pv1lIMdKzma7M+s6NmammzK46yOzVYtTr/l6ypj+hJZfkaIaBhG5awwhk72kR8cvN71F1NwKHetRlZG1Q==
+recorder-core@^1.1.20051700:
+  version "1.2.22080700"
+  resolved "https://registry.yarnpkg.com/recorder-core/-/recorder-core-1.2.22080700.tgz#414ec7605c84acaf00b853772d0bffc3755d394e"
+  integrity sha512-A7VfuVBbOCJpvo+YmEc/Sshw4nDTmfAg1beL9P+vlCYHnECfZeaa07tFADT++z6VtdYCuu0un6DGl1uZQnzamg==
 
 redent@^1.0.0:
   version "1.0.0"
