@@ -8129,9 +8129,9 @@ qs@6.7.0:
   integrity sha1-QdwaAV49WB8WIXdr4xr7KHapsbw=
 
 qs@~6.4.0:
-  version "6.4.0"
-  resolved "https://registry.yarnpkg.com/qs/-/qs-6.4.0.tgz#13e26d28ad6b0ffaa91312cd3bf708ed351e7233"
-  integrity sha1-E+JtKK1rD/qpExLNO/cI7TUecjM=
+  version "6.4.1"
+  resolved "https://registry.yarnpkg.com/qs/-/qs-6.4.1.tgz#2bad97710a5b661c366b378b1e3a44a592ff45e6"
+  integrity sha512-LQy1Q1fcva/UsnP/6Iaa4lVeM49WiOitu2T4hZCyA/elLKu37L99qcBJk4VCCk+rdLvnMzfKyiN3SZTqdAZGSQ==
 
 qs@~6.5.2:
   version "6.5.2"
@@ -8306,10 +8306,10 @@ rechoir@^0.6.2:
   dependencies:
     resolve "^1.1.6"
 
-recorder-core@1.0.7:
-  version "1.1.20051700"
-  resolved "https://registry.yarnpkg.com/recorder-core/-/recorder-core-1.1.20051700.tgz#c998a81dcaaa93826db6a4c6bc25e6c8e28f63d4"
-  integrity sha512-qDo77Pv1lIMdKzma7M+s6NmammzK46yOzVYtTr/l6ypj+hJZfkaIaBhG5awwhk72kR8cvN71F1NwKHetRlZG1Q==
+recorder-core@^1.1.20051700:
+  version "1.2.22080700"
+  resolved "https://registry.yarnpkg.com/recorder-core/-/recorder-core-1.2.22080700.tgz#414ec7605c84acaf00b853772d0bffc3755d394e"
+  integrity sha512-A7VfuVBbOCJpvo+YmEc/Sshw4nDTmfAg1beL9P+vlCYHnECfZeaa07tFADT++z6VtdYCuu0un6DGl1uZQnzamg==
 
 redent@^1.0.0:
   version "1.0.0"
